@@ -1,2 +1,2 @@
-# EDA_phyton
+# EA_phyton
 Course: Exploratory Analisis with Python
