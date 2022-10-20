@@ -1,5 +1,5 @@
 # EA_phyton
-## Course: Analysis Exploratorio con Python
+## Course: Análisis Exploratorio con Python
 
 Unidad 1: Conociendo Python para ETL
 
