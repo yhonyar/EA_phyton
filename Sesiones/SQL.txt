@@ -1,0 +1,10 @@
+CREATE DATABASE datawarehouse;
+CREATE TABLE ventas_final (
+    id int NOT NULL AUTO_INCREMENT,
+    nombre varchar(255),
+    ventas1 double,
+    ventas double,
+    suma double,
+    PRIMARY KEY (id),
+    INDEX ix_ventas_final_nombre(nombre)
+);
