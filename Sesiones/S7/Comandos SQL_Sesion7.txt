@@ -1,0 +1,27 @@
+CREATE DATABASE repo_preparacion;
+
+CREATE DATABASE repo_final;
+
+
+#las siguientes tablas se crean en el esquema repo_final
+
+CREATE TABLE covid19 (
+  FIPS double DEFAULT NULL,
+  Admin2 text,
+  Province_State text,
+  Country_Region text,
+  Last_Update text,
+  Confirmed bigint DEFAULT NULL,
+  Deaths bigint DEFAULT NULL,
+  Recovered bigint DEFAULT NULL,
+  Active bigint DEFAULT NULL,
+  Incident_Rate double DEFAULT NULL
+);
+
+CREATE TABLE covid19_country (
+  Country_Region text,
+  Confirmed bigint DEFAULT NULL,
+  Deaths bigint DEFAULT NULL,
+  Recovered bigint DEFAULT NULL,
+  Active bigint DEFAULT NULL
+) 
