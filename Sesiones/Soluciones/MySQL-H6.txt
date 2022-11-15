@@ -1,0 +1,21 @@
+CREATE DATABASE use_car_prices;
+
+Primera tabla:
+CREATE TABLE car_tidy (
+  id int NOT NULL AUTO_INCREMENT,
+  car_model varchar(255),
+  year_of_manufacture double,
+  price double,
+  fuel text,
+  PRIMARY KEY (id),
+  INDEX ix_car_tidy(car_model)
+);
+
+Segunda tabala:
+CREATE TABLE precio_modelo (
+    id int NOT NULL AUTO_INCREMENT,
+    car_model varchar(255),
+    average_price double,
+    PRIMARY KEY (id),
+    INDEX ix_precio_modelo(car_model)
+);
