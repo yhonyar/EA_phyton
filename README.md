@@ -7,10 +7,12 @@ Contenido:
 
 * Fundamentos de Python
 * Librerias de numpy y pandas
-* Matplotlib
+* Proceso ETL
+* Data Analitics
 
 ## Instructor
 Lic. Yhony Mamani Arce 
+
 Repositorio de github: https://github.com/yhonyar
 
 ## Libros de consulta
